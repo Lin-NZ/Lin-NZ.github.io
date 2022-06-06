@@ -1,1 +1,38 @@
-
+<html>
+  <head>
+    <title> my profile </title>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <body>
+    <center>
+    <div id="IM">
+    <h1>從學期初到末的心路歷程~~</h1>
+      <ol>
+        <li>我可以過!!</li>
+        <li>希望我可以過!!</li>
+        <li>拜託讓我過!!</li>
+      </ol>
+    <hr> 
+    <p>你好</p>
+    <h6>但我還好!</h6>
+    <h2>小知識 : 北極熊都是左撇子</h2>
+    </div>
+    <button onclick="loadninecloudgodess()">show me the profile !!</button>
+    </center>
+    <script>
+      function loadninecloudgodess() {
+        alert("九天玄女降落!!");
+        alert("800英尺~~");
+        alert("500英尺~~");
+        alert("100英尺~~");
+        alert("降落!!");
+        document,getElementById("IM").innerHTML = loadDoc();
+      }
+      function loadDoc() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("GET","./IM.txt");
+        xhttp.send();
+      }
+    </script>   
+  </body>
+</html>
