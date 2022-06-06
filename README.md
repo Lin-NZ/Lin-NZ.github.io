@@ -1,1 +1,1 @@
-# PLease come to see [Lin-NZ.github.io](https://Lin-NZ.github.io) !!!
+# PLease come to see [my profile](https://lin-nz.github.io/) !!!
