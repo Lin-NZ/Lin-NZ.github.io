@@ -29,7 +29,7 @@
       }
       function loadDoc() {
         const xhttp = new XMLHttpRequest();
-        xttp.onload = function(){
+        xhttp.onload = function(){
           document.getElementByID("IM").innerHTML = this.responseText  
         xhttp.open("GET","./IM.txt");
         xhttp.send();
